@@ -3,7 +3,7 @@ apply plugin: 'com.google.gms.google-services'
 
 android {
 
-    compileSdkVersion 30
+    compileSdkVersion 33
     buildToolsVersion '30.0.3'
     useLibrary 'org.apache.http.legacy'
 
@@ -11,7 +11,7 @@ android {
 
         //noinspection MinSdkTooLow
         minSdkVersion 1
-        targetSdkVersion 30
+        targetSdkVersion 33
 
         versionCode 1
         versionName "1.0"
@@ -92,6 +92,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'org.apache.commons:commons-lang3:3.12.0'
-    implementation 'org.jetbrains:annotations:21.0.1'
+    implementation 'org.jetbrains:annotations:23.0.0'
     implementation 'org.javatuples:javatuples:1.2'
 }
